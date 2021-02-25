@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<!-- aqui inicia el nav bar -->
+<nav class="navbar fixed-top navbar-light bg-light ">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="https://assets.website-files.com/5c75b94c8dd1ae50d3b9294b/5d48831280adb734a5db5620_hukglfkfklk%3B.png" alt="" height="35" >
+    </a>
+    
+    <div class="encapsulamiento_dos_botones">
+        
+        <div class="dropdown">
+            <button class="btn btn-outline-success" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Create new post</button>
+        
+        
+        <button  class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          
+            <span class="material-icons">
+                settings
+                </span></button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+      
+            </div>
+      
+       
+      </div>
+  </div>
+
+</nav>
+
+<div class="container my-4">
+<div class="text-center" style="margin-top: 10vh;">
+    
+    <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked  data-bs-toggle="collapse" href="#gallery" aria-controls=" gallery">
+        <label class="btn btn-outline-secondary" for="btnradio1">
+                <span class="material-icons">apps</span>
+        </label>   
+
+        <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" data-bs-toggle="collapse" href="#feed" aria-controls="feed gallery">
+
+        <label class="btn btn-outline-secondary" for="btnradio2">
+            <span class="material-icons">table_rows</span>
+        </label>   
+    </div>
+
+</div> 
+</div>
+
+
+
+
+
+
+<!-- <section >
+<div class="row"  >
+    <div class=" col -md-4" ><img  src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" alt="" ></div>
+    <div class=" col -md-4" ><img src="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/dogs_1280p_0.jpg?itok=cnRk0HYq" alt=""  ></div>
+    <div class=" col -md-4" ><img  src="https://www.irishnews.com/picturesarchive/irishnews/irishnews/2019/02/25/205100809-bace59b9-d607-4e6d-9bbe-e87630f4d03a.jpg" alt=""  ></div>
+
+</div>
+</section> -->
+<section id="gallery">
+<div class="container my-4">
+<div class="row">  
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-12 mb-4">
+
+      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" class="img-fluid mb-4" alt="">
+
+      <img src="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/dogs_1280p_0.jpg?itok=cnRk0HYq" class="img-fluid mb-4" alt=""
+        data-wow-delay="0.3s">
+    
+        <img src="https://www.thewindowsclub.com/wp-content/uploads/2019/08/4K-vs-HDR-vs-Dolby-Vision-600x306.jpg" class="img-fluid mb-4" alt=""
+        data-wow-delay="0.3s">
+
+        <img src="https://www.designyourway.net/blog/wp-content/uploads/2018/02/4k-landscape-background-As-.jpg" class="img-fluid mb-4" alt=""
+        data-wow-delay="0.3s">
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-6 mb-4">
+
+      <img src="https://www.irishnews.com/picturesarchive/irishnews/irishnews/2019/02/25/205100809-bace59b9-d607-4e6d-9bbe-e87630f4d03a.jpg" class="img-fluid mb-4" alt=""
+        data-wow-delay="0.1s">
+
+      <img src="https://i.ytimg.com/vi/8jypK2U1AM0/maxresdefault.jpg" class="img-fluid mb-4" alt=""
+        data-wow-delay="0.4s">
+
+        <img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2019%2F12%2FGettyImages-1150279063-2000.jpg" class="img-fluid mb-4" alt=""
+        data-wow-delay="0.4s">
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4 col-md-6 mb-4">
+
+      <img src="https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="img-fluid mb-4" alt=""
+        data-wow-delay="0.2s">
+
+        <img src="https://helpdeskgeek.com/wp-content/pictures/2020/03/4k-wallpapers-desktop-best-sites-interfacelift.jpg.optimal.jpg" class="img-fluid mb-4" alt=""
+        data-wow-delay="0.2s">
+
+      <img src="https://images.alphacoders.com/789/thumb-1920-789452.jpg" class="img-fluid mb-4" alt=""
+        data-wow-delay="0.5s">
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+</div>
+</section>
+<!--aqui finaliza galeria -->
+
+<!--aqui inicia scroll_down -->
+
+<section id="feed">
+
+<div class="container my-4" >
+<!--aqui finaliza scroll_down -->
+<div class="card" style="width: 30rem; margin: 10vh;">
+    <div class="d-flex justify-content-between">
+        <h5 class="card-title">Doggy</h5>
+        <h6 class="card-subtitle mb-2 text-muted" >11/5</h6>
+        </div>
+    <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+  
+  <div class="card" style="width: 30rem; margin: 10vh;">
+    <div class="d-flex justify-content-between">
+        <h5 class="card-title">Lake</h5>
+        <h6 class="card-subtitle mb-2 text-muted" >10/4</h6>
+        </div>
+    <img src="https://i.ytimg.com/vi/8jypK2U1AM0/maxresdefault.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 30rem; margin: 10vh;">
+    <div class="d-flex justify-content-between">
+        <h5 class="card-title">Astra</h5>
+        <h6 class="card-subtitle mb-2 text-muted" >12/2</h6>
+        </div>
+    <img src="https://images.alphacoders.com/789/thumb-1920-789452.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+
+  <div class="card" style="width: 30rem; margin: 10vh;">
+    <div class="d-flex justify-content-between">
+    <h5 class="card-title">Yamahaba</h5>
+    <h6 class="card-subtitle mb-2 text-muted" >1/02</h6>
+    </div>
+    <img src="https://images.pexels.com/photos/1525041/pexels-photo-1525041.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Post something</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+      
+        <div class="modal-body">
+            <input type="input_fromuser" class="form-control" id="user_input" aria-describedby="emailHelp">
+        </div>
+        <div class="input_buttons m-1">
+            <button type="button" class="btn btn-outline-secondary"> <span class="material-icons">insert_photo</span></button>
+            <button type="button" class="btn btn-outline-secondary"><span class="material-icons">fmd_good</span></button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-outline-success">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
+
