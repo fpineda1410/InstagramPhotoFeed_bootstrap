@@ -13,9 +13,10 @@
 
 </head>
 <body>
+  <div class="container-fluid">
 
 <!-- aqui inicia el nav bar -->
-<nav class="navbar fixed-top navbar-light bg-light ">
+<nav class="navbar fixed-top navbar-light bg-light mb-8">
   <div class="container">
     <a class="navbar-brand" href="#">
       <img src="https://assets.website-files.com/5c75b94c8dd1ae50d3b9294b/5d48831280adb734a5db5620_hukglfkfklk%3B.png" alt="" height="35" >
@@ -46,7 +47,23 @@
 
 </nav>
 
-<div class="container my-4">
+<div class="row" style="background-color: white; margin-top:5%;">
+
+  <ul class="nav nav-pills  d-flex justify-content-center" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+
+          <a class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" href="#gallery" role="tab"
+              aria-controls="pills-home" aria-selected="true"><span class="material-icons">apps</span></a>
+      </li>
+      <li class="nav-item" role="presentation">
+          <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#feed" role="tab"
+              aria-controls="pills-profile" aria-selected="false"><span class="material-icons">table_rows</span></a>
+      </li>
+
+  </ul>
+
+</div>
+<!-- <div class="container my-4">
 <div class="text-center" style="margin-top: 10vh;">
     
     <div class="btn-group " role="group" aria-label="Basic radio toggle button group">
@@ -63,22 +80,13 @@
     </div>
 
 </div> 
-</div>
+</div> -->
+
+<div class="tab-content" id="pills-tabContent">
 
 
+<div class="tab-pane fade show active" id="gallery" role="tabpanel" aria-labelledby="pills-home-tab">
 
-
-
-
-<!-- <section >
-<div class="row"  >
-    <div class=" col -md-4" ><img  src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dog-puppy-on-garden-royalty-free-image-1586966191.jpg?crop=1.00xw:0.669xh;0,0.190xh&resize=1200:*" alt="" ></div>
-    <div class=" col -md-4" ><img src="https://www.sciencemag.org/sites/default/files/styles/article_main_large/public/dogs_1280p_0.jpg?itok=cnRk0HYq" alt=""  ></div>
-    <div class=" col -md-4" ><img  src="https://www.irishnews.com/picturesarchive/irishnews/irishnews/2019/02/25/205100809-bace59b9-d607-4e6d-9bbe-e87630f4d03a.jpg" alt=""  ></div>
-
-</div>
-</section> -->
-<section id="gallery">
 <div class="container my-4">
 <div class="row">  
 
@@ -131,12 +139,13 @@
 
   </div>
 </div>
-</section>
+</div>
 <!--aqui finaliza galeria -->
 
-<!--aqui inicia scroll_down -->
 
-<section id="feed">
+<!--aqui inicia scroll_down -->
+<div class="tab-pane fade" id="feed" role="tabpanel" aria-labelledby="pills-profile-tab">
+<!-- <section id=""> -->
 
 <div class="container my-4" >
 <!--aqui finaliza scroll_down -->
@@ -183,8 +192,12 @@
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   </div>
-</section>
 
+</div>
+</div>
+
+
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -210,8 +223,11 @@
     </div>
   </div>
 
+</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+  crossorigin="anonymous"></script>
 
 
 
